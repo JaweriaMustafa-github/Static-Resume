@@ -1,0 +1,67 @@
+/* styles.css*/
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+.resume-container{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: darkred;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius:10px;
+}
+h1,h2,h3{
+    color: blanchedalmond;
+}
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0;
+}
+button{
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color:blanchedalmond;
+    color: darkred;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(245, 100, 100);
+}
+
+p{
+    color: blanchedalmond;
+}
+li{
+    color: blanchedalmond;
+}
+
+/*Initially hide skills list*/
+#skills-list{
+    display: none;
+}
+/*Responsive design*/
+@media (max-width : 768px) {
+    .resume-container{
+        width: 95%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1.25em;
+    }
+    .profile-pic{
+        width: 120px;
+        height: 120px;
+    }
+}
